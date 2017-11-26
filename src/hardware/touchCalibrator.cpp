@@ -28,6 +28,7 @@ TouchCalibrator::TouchCalibrator(){
 }
 
 //TouchReader 객체를 받으면 켈리브레이션 수행
+// Thanks to: 전기박사(Member of Naver cafe "PIPC")
 TouchCalibrator::TouchCalibrator(TouchReader &t){
 	int LCD_Width = gwidth();
 	int LCD_Height = gheight();
